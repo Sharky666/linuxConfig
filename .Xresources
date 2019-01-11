@@ -1,0 +1,48 @@
+URxvt.font: xft:monospace:size=12
+URxvt.scrollBar: false
+
+! colors
+! special
+*.foreground:   #a39d9d
+*.background:   #121315
+*.cursorColor:  #a39d9d
+
+! black
+*.color0:       #282a2e
+*.color8:       #373b41
+
+! red
+*.color1:       #865151
+*.color9:       #be1919
+
+! green
+*.color2:       #949d3e
+*.color10:      #b76c48
+
+! yellow
+*.color3:       #d32fbd
+*.color11:      #f0c674
+
+! blue
+*.color4:       #4c718f
+*.color12:      #5c809f
+
+! magenta
+*.color5:       #735a7c
+*.color13:      #684c70
+
+! cyan
+*.color6:       #5e8d87
+*.color14:      #69d5c7
+
+! white
+*.color7:       #556c82
+*.color15:      #e2e2e2
+
+! copy paste
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+
+! disabling mods and stuff
+URxvt.iso14755: false
+URxvt.iso14755_52: false
