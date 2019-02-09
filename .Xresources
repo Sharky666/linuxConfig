@@ -1,43 +1,42 @@
 URxvt.font: xft:monospace:size=12
 URxvt.scrollBar: false
 
-! colors
 ! special
-*.foreground:   #a39d9d
-*.background:   #121315
-*.cursorColor:  #a39d9d
+*.foreground:   #e9e9e9
+*.background:   #0c0c0c
+*.cursorColor:  #e9e9e9
 
 ! black
-*.color0:       #282a2e
-*.color8:       #373b41
+*.color0:       #ff4c4c
+*.color8:       #46b5f3
 
 ! red
-*.color1:       #865151
-*.color9:       #be1919
+*.color1:       #39e0b4
+*.color9:       #ff00cd
 
 ! green
-*.color2:       #949d3e
-*.color10:      #b76c48
+*.color2:       #00ffb8
+*.color10:      #fcd49a
 
 ! yellow
-*.color3:       #d32fbd
-*.color11:      #f0c674
+*.color3:       #ff0080
+*.color11:      #c9c1df
 
 ! blue
-*.color4:       #4c718f
-*.color12:      #5c809f
+*.color4:       #d1d1d1
+*.color12:      #5600ff
 
 ! magenta
-*.color5:       #735a7c
-*.color13:      #684c70
+*.color5:       #6466ff
+*.color13:      #663260
 
 ! cyan
-*.color6:       #5e8d87
-*.color14:      #69d5c7
+*.color6:       #aaaaaa
+*.color14:      #00dcff
 
 ! white
-*.color7:       #556c82
-*.color15:      #e2e2e2
+*.color7:       #4e4e4e
+*.color15:      #64bff9
 
 ! copy paste
 URxvt.keysym.Shift-Control-V: eval:paste_clipboard
